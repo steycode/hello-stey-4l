@@ -10,6 +10,7 @@ We are an innovative digital team at Stey and hiring: [https://www.lagou.com/gon
 
 ---
 
-for job applicants, please fork this project and make PR once finishing the tasks below:
-
-- add another endpoint to the hello service to say "你好 message"，with "message"" passed by query parameter  
+For job applicants
+ 1. Clone the project
+ 2. Add another endpoint to the hello service to say "你好 message"，with "message"" passed by query parameter 
+ 3. Issue a pull request for review

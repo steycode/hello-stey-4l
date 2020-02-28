@@ -10,7 +10,7 @@ class HelloServiceImpl extends HelloService {
 
   override def hello(greet: String): ServiceCall[NotUsed, String] = {
     ServiceCall { _ =>
-      Future.successful(s"hello $greet")
+      Future.successful(s"Hello $greet")
     }
   }
 
