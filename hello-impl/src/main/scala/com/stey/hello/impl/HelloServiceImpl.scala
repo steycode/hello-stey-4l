@@ -14,4 +14,9 @@ class HelloServiceImpl extends HelloService {
     }
   }
 
+  override def helloChina(message: String): ServiceCall[NotUsed, String] = {
+    ServiceCall { _ =>
+      Future.successful(s"你好 $message")
+    }
+  }
 }
